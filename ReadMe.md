@@ -64,6 +64,16 @@ end
 three = add(1,2)
 ```
 
+## Comments
+Comments are a part of the code which contains a comment, or a note, which isn't executed and is there to be read. Comments in toddlang at the moment follow the Python comment syntax of #'s.   
+Example:
+```
+# This code is for a subtract function!
+public subtract(x,y)
+    rustam x - y
+end
+```
+
 ## Loops
 
 ### For loops
@@ -161,10 +171,10 @@ example: `index(list, 0)`
 types are stuff like strings, integers, booleans, etc.   
 
 ### strings
-str() converts to a string   
-example: `str(69)`
-isstring() checks if something is a number   
-example: `isstring("hello world")`
+**str()** converts to a string   
+example: `str(69)`   
+**isstring()** checks if something is a string   
+example: `isstring("hello world")`   
 
 ### numbers
 isnumber() checks if something is a number (ints, floats, etc. works with all number types)   
@@ -205,8 +215,8 @@ toddsays() but it returns the string stdout-ed
 Example: `toddreallysays("Hello, world!")`  
 
 ### Stdin
-Really creative name, right? Captures user input.
-Example: `toddsays("Whats your name?"); var name = stdin(); toddsays("Hello, " + name)`
+Really creative name, right? Captures stdin, or user input.   
+Example: `toddsays("Whats your name?"); var name = stdin(); toddsays("Hello, " + name)`   
 Multi Line Example:
 ```
 toddsays("Whats your name?") 
@@ -215,7 +225,7 @@ toddsays("Hello, " + name)
 ```
 ### Intstdin
 INSANELY creative name. stdin but converts to int. soon to be depracated due to int() probably.   
-Example: `toddsays("Whats your age?"); var age = intstdin(); toddsays("2x your age is, " + str(age * 2))`
+Example: `toddsays("Whats your age?"); var age = intstdin(); toddsays("2x your age is, " + str(age * 2))`   
 Multi Line Example:
 ```
 toddsays("Whats your age?")
