@@ -1,4 +1,4 @@
-# ToddLang Beta 1.0.1 Docs
+# ToddLang Beta 1.0.2 Docs
 Possibly the most shitty docs of all time.
 
 ## Variables
@@ -242,7 +242,12 @@ we went over the the istype functions (isnumber, isstring, etc) in the types cat
 
 ### Shell
 executes a command in shell and returns the stdout.   
-example: `shell("echo hello world")`
+example: `var message = shell("echo hello world")`
+
+### Local Shell
+executes a command in the the current shell window and returns null.   
+example: `shell("color a")`
+
 
 ### runFile
 executes a toddlang file. sunsetted by use() but not yet deprecated.      
