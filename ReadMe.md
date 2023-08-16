@@ -246,7 +246,7 @@ example: `var message = shell("echo hello world")`
 
 ### Local Shell
 executes a command in the the current shell window and returns null.   
-example: `shell("color a")`
+example: `lcshell("color a")`
 
 
 ### runFile
