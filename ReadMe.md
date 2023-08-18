@@ -1,4 +1,4 @@
-# ToddLang Beta 1.0.2 Docs
+# ToddLang Beta 1.0.3 Docs
 Possibly the most shitty docs of all time.
 
 ## Variables
@@ -96,6 +96,24 @@ for i = 0 to 100 step 10 then # loops 10 times
 end
 ```
 
+#### In
+Iterate through every item in a string or list using `in`.   
+Example: `var list = [1,2,3]; var string = "test"; for item in list then toddsays(item); for char in string then toddsays(char)`    
+Multi Line Example: 
+```
+var list = [1,2,3]
+var string = "test"
+# list example
+for item in list then
+    toddsays(item)
+end
+# string example
+for char in string then
+    toddsays(char)
+end
+
+```
+
 ### While Loops
 Iterates while a statement is or isnt something.   
 Example: `var todd = 0; while todd < 100 then var todd = todd + 1`   
@@ -166,6 +184,10 @@ example: `insert(list, 0, "foobar")`
 ### indexing
 fetch a item from a list via its index   
 example: `index(list, 0)`
+
+## Dictionaries
+theyre dictionaries   
+example `var dict = {"foo": "bar", "toddlang": true, "mohammed's subscribers": 1000^1000}`
 
 ## types
 types are stuff like strings, integers, booleans, etc.   
